@@ -1,0 +1,11 @@
+age = input("What is your current age?\n")
+
+age_as_int = int(age)
+years_left = 90 - age_as_int
+months_left = years_left * 12
+weeks_left = years_left * 52
+days_left = years_left * 365 
+
+message = (f"Thanks! You have approximately {days_left} days, {weeks_left} weeks, {months_left} months, and {years_left} years remaining, assuming a lifespan of 90 years.")
+
+print(message)
